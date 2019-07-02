@@ -12,4 +12,5 @@
     "depends": ["purchase"],
     "data": ["views/product_views.xml"],
     "installable": True,
+    "post_init_hook": "set_last_price_info",
 }
